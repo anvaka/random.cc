@@ -1,0 +1,21 @@
+{
+  "name": "random.cc",
+  "version": "1.0.0",
+  "description": "Determenistic pseudo random number generator for C++",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "c++",
+    "prng",
+    "Robert",
+    "Jenkins"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/random.cc"
+  }
+}
