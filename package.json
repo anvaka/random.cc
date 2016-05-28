@@ -2,20 +2,23 @@
   "name": "random.cc",
   "version": "1.0.0",
   "description": "Determenistic pseudo random number generator for C++",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "configure": "ngyp gyp/test.gyp --depth=. -f make --generator-output=build --toplevel-dir=.",
+    "clean": "rm -rf build",
+    "test": "make --directory=build && build/out/Default/test "
   },
   "keywords": [
     "c++",
     "prng",
-    "Robert",
-    "Jenkins"
+    "Robert Jenkins"
   ],
   "author": "Andrei Kashcha",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/anvaka/random.cc"
+  },
+  "devDependencies": {
+    "catch.cc": "^6.0.0"
   }
 }
