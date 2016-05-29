@@ -19,6 +19,6 @@
     "url": "https://github.com/anvaka/random.cc"
   },
   "devDependencies": {
-    "catch.cc": "^6.0.0"
+    "catch.cc": "^7.0.0"
   }
 }
