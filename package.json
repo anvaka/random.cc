@@ -1,6 +1,6 @@
 {
   "name": "random.cc",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Determenistic pseudo random number generator for C++",
   "scripts": {
     "configure": "ngyp gyp/test.gyp --depth=. -f make --generator-output=build --toplevel-dir=.",
